@@ -1,0 +1,39 @@
+.filterbox {
+    padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .divider {
+        width: 80%;
+        text-align: center;
+        background: #ddd;
+        height: 1px;
+        border: 0;
+    }
+
+    .button_box {
+        width: 50%;
+        float: left;
+        padding: 7px;
+
+        &:nth-child(even) {
+            text-align: right;
+        }
+    }
+
+    button {
+        border: 0;
+        background: #C5E09B;
+        border-radius: 3px;
+        padding: 5px 10px;
+        
+        &.selected {
+            background: #7CBA01;
+        }
+    }
+}
